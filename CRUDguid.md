@@ -1,22 +1,8 @@
-Svarbu:
-Prieš naudojant, užtikrinkite, kad būtų paleistas serveris: npm run start
+Serverio paleidimas: npm start
 
-Modeliai:
-user (vartotojas)
-ads (skelbimai)
-category (kategorijos)
-comments (komentarai)
+Postman testavimas:
 
-Folderiai:
-middleware: autorizacija ir autentifikacija
-config: duomenų bazės prisijungimas su mongoose
-routes: HTTP maršrutai susieti su funkcijomis
-models: schemos, duomenų struktūra
-controllers: užklausų valdymas ir "smegenys"
-server.js: serveris, prisijungimas prie DB, struktūra
-
-Postman operacijos
-VARTOTOJAI (USERS):
+Users (vartotojai)
 Sukurti naują vartotoją:
 Metodas: POST
 Adresas: http://localhost:5000/api/users
